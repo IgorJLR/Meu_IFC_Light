@@ -120,7 +120,7 @@ export default function MapResults() {
           </Popup>
         </Marker>
         {location.loaded && !location.error && (
-            <Marker icon={ icon } position={[location.coordinates.lat, location.coordinates.lng]}>
+            <Marker icon={ iconC } position={[location.coordinates.lat, location.coordinates.lng]}>
                 <Popup>
                   <b>Você está aqui.</b>
                 </Popup>
