@@ -1,0 +1,914 @@
+[
+  {
+  "id": 1,
+  "loc": [-27.01537468200277,-48.65880534052849],
+  "title": "Lab Hard",
+  "andar": "primeiro",
+  "foto": "labRedes.png",
+  "bloco": "B"
+  },
+  {
+    "id": 2,
+    "loc": [-27.015428446614937,-48.65884155035018],
+    "title": "Lab Soft",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 3,
+    "loc": [-27.015476237359707,-48.65887239575386],
+    "title": "Lab Soft II",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 4,
+    "loc": [-27.01540813554225,-48.658685982227325],
+    "title": "Lab Web",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 5,
+    "loc": [-27.015448757683938,-48.65871414542198],
+    "title": "Lab Redes",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 6,
+    "loc": [-27.015534780994347,-48.658786565065384],
+    "title": "Lab Mat(i)²",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 7,
+    "loc": [-27.01548699027448,-48.65874633193016],
+    "title": "Coordenação B105",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 8,
+    "loc": [-27.015929053657796,-48.659074902534485],
+    "title": "Banheiros",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 9,
+    "loc": [-27.015952948926284,-48.65909904241562],
+    "title": "Professores Informática",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 10,
+    "loc": [-27.016000739447982,-48.659123182296746],
+    "title": "Lab Laser",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 11,
+    "loc": [-27.016041361375457,-48.65916073322296],
+    "title": "Lagi",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 12,
+    "loc": [-27.016093930906862,-48.65920364856719],
+    "title": "Lab Gex",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 13,
+    "loc": [-27.015960117505838,-48.65905076265335],
+    "title": "Professores Gestão de Negócios",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 14,
+    "loc": [-27.016038971850715,-48.6590950191021],
+    "title": "Lab Soft III",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 15,
+    "loc": [-27.016093930906862,-48.65914061665535],
+    "title": "Lapi Mob",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 16,
+    "loc": [
+      "verificar",
+      "verificar"
+    ],
+    "title": "Almoxarifado",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 17,
+    "loc": [
+      "-27.014796",
+      "-48.658261"
+    ],
+    "title": "G3 001 Laborat\u00f3rio de Sementes",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 18,
+    "loc": [
+      "-27.014685",
+      "-48.657824"
+    ],
+    "title": "G3 002 Laborat\u00f3rio de Inform\u00e1tica Geral I",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 19,
+    "loc": [
+      "-27.014622",
+      "-48.657815"
+    ],
+    "title": "G3 003 Laborat\u00f3rio de Entomologia (LABENTO)",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 20,
+    "loc": [
+      "-27.014622",
+      "-48.657815"
+    ],
+    "title": "G3 004 Laborat\u00f3rio de Inform\u00e1tica Geral II",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 21,
+    "loc": [
+      "-27.014622",
+      "-48.657816"
+    ],
+    "title": "G3\u00a0005 Programa de Educa\u00e7\u00e3o Tutorial (PET)",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 22,
+    "loc": [
+      "-27.014622",
+      "-48.657816"
+    ],
+    "title": "G3\u00a0006 Laborat\u00f3rio de Projetos",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 23,
+    "loc": [
+      "-27.014237",
+      "-48.657438"
+    ],
+    "title": "G3\u00a0007 Grupo de Estudos Avan\u00e7ados em Tecnologia da Informa\u00e7\u00e3o (GEATI)",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 24,
+    "loc": [
+      "-27.014237",
+      "-48.657438"
+    ],
+    "title": "G3\u00a0008 Laborat\u00f3rio de Gerenciamento de Desastres\nG3\u00a0008 Laborat\u00f3rio de Simula\u00e7\u00e3o - Jogos de Mesa e Cen\u00e1rios\nG3\u00a0008 Laborat\u00f3rio de Equipamentos de Prote\u00e7\u00e3o Individual, Higiene Ocupacional e Ergonomia",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 25,
+    "loc": [
+      "-27.014724",
+      "-48.657837"
+    ],
+    "title": "Sanit\u00e1rios Bloco G, T\u00e9rreo",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 26,
+    "loc": [
+      "-27.014442",
+      "-48.658009"
+    ],
+    "title": "Entrada Bloco G",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 27,
+    "loc": [
+      "-27.014967",
+      "-48.658111"
+    ],
+    "title": "CENTRO DE CONVIV\u00caNCIA DOS TERCEIRIZADOS",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 28,
+    "loc": [
+      "-27.015170",
+      "-48.658010"
+    ],
+    "title": "AMBULAT\u00d3RIO",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
+    "id": 29,
+    "loc": [
+      "-27.014460",
+      "-48.657302"
+    ],
+    "title": "AGROIND\u00daSTRIA DE PRODUTOS DE ORIGEM VEGETAL",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+  },
+  {
+    "id": 30,
+    "loc": [
+      "-27.015073",
+      "-48.658758"
+    ],
+    "title": "CASA DE ORA\u00c7\u00c3O",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+  },
+  {
+    "id": 31,
+    "loc": [
+      "-27.014158",
+      "-48.665351"
+    ],
+    "title": "CENTRO DE FORMA\u00c7\u00c3O DE TREINADORES E INSTRUTORES DE C\u00c3ES-GUIA E INCLUS\u00c3O",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+  },
+  {
+    "id": 32,
+    "loc": [
+      "-27.014142",
+      "-48.657399"
+    ],
+    "title": "LABORAT\u00d3RIO DE CUIDADOS DE IDOSOS",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+  },
+  {
+    "id": 33,
+    "loc": [
+      "-27.014601",
+      "-48.659562"
+    ],
+    "title": "Sala de Aula - Mec\u00e2nica ",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "M"
+  },
+  {
+    "id": 34,
+    "loc": [
+      "-27.015959",
+      "-48.659095"
+    ],
+    "title": "C 101 Sala de Professores",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 35,
+    "loc": [
+      "-27.015991",
+      "-48.659044"
+    ],
+    "title": "C 102 Sala de Professores",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 36,
+    "loc": [
+      "-27.015959",
+      "-48.659106"
+    ],
+    "title": "C 103 Sala de Professores",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 37,
+    "loc": [
+      "-27.015948",
+      "-48.659071"
+    ],
+    "title": "C 104 Laborat\u00f3rio Avan\u00e7ado em Seguran\u00e7a e Redes (LabLASER)",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 38,
+    "loc": [
+      "-27.015929",
+      "-48.659098"
+    ],
+    "title": "C 105 Laborat\u00f3rio de Pesquisas Imobili\u00e1rias (LaPimob)",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 39,
+    "loc": [
+      "-27.015958",
+      "-48.659103"
+    ],
+    "title": "C 106 Laborat\u00f3rio Gr\u00e1fico para Experimenta\u00e7\u00e3o Imobili\u00e1ria (LabGEXI) e Laborat\u00f3rio de Ger\u00eancia Imobili\u00e1ria (LAGI)",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 40,
+    "loc": [
+      "-27.015893",
+      "-48.659050"
+    ],
+    "title": "Sanit\u00e1rios Bloco C, 1\u00ba Piso",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 41,
+    "loc": [
+      "-27.015945",
+      "-48.65911"
+    ],
+    "title": "Entrada Bloco C, 1\u00ba Piso",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 42,
+    "loc": [
+      "-27.015948",
+      "-48.659080"
+    ],
+    "title": "C 001 Sala de Professores",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 43,
+    "loc": [
+      "-27.015973",
+      "-48.659074"
+    ],
+    "title": "C 002 Suporte de Inform\u00e1tica ",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 44,
+    "loc": [
+      "-27.0159476",
+      "-48.6591017"
+    ],
+    "title": "C 003 Sala de Professores",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 45,
+    "loc": [
+      "-27.015934",
+      "-48.659053"
+    ],
+    "title": "Arquivo Setorial",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 46,
+    "loc": [
+      "-27.015963",
+      "-48.659084"
+    ],
+    "title": "C 004 Dep\u00f3sito",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 47,
+    "loc": [
+      "-27.015965",
+      "-48.659073"
+    ],
+    "title": "C 005 Laborat\u00f3rio de Recursos H\u00eddricos",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 48,
+    "loc": [
+      "-27.016010",
+      "-48.659136"
+    ],
+    "title": "C 007 Representa\u00e7\u00e3o Estudantil",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 49,
+    "loc": [
+      "-27.016017",
+      "-48.659125"
+    ],
+    "title": "Cantina",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 50,
+    "loc": [
+      "-27.016287",
+      "-48.659061"
+    ],
+    "title": "Sala de Jogos",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 51,
+    "loc": [
+      "-27.015862",
+      "-48.658985"
+    ],
+    "title": "Sanit\u00e1rios Bloco C, T\u00e9rreo",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 52,
+    "loc": [
+      "-27.016017",
+      "-48.659136"
+    ],
+    "title": "Entrada 1 Bloco C, T\u00e9rreo",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 53,
+    "loc": [
+      "-27.015957",
+      "-48.659110"
+    ],
+    "title": "Entrada 2 Bloco C, T\u00e9rreo",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 54,
+    "loc": [
+      "-27.015862",
+      "-48.658985"
+    ],
+    "title": "Entrada 3 Bloco C, T\u00e9rreo",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "C"
+  },
+  {
+    "id": 55,
+    "loc": [
+      "-27.016389",
+      "-48.658951"
+    ],
+    "title": "D 001 Brinquedoteca",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 56,
+    "loc": [
+      "-27.016397",
+      "-48.658959"
+    ],
+    "title": "D 002 Sala de Inclus\u00e3o e Diversidade / NAPNE - Atendimento Educacional Especializado",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 57,
+    "loc": [
+      "-27.016484",
+      "-48.659013"
+    ],
+    "title": "D 003 Psic\u00f3logo(a) e Assist\u00eancia Social",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 58,
+    "loc": [
+      "-27.016505",
+      "-48.659034"
+    ],
+    "title": "D 004 Coordena\u00e7\u00e3o de Servi\u00e7o Integrado e Acompanhamento educacional (SISAE) e Orienta\u00e7\u00e3o Pedag\u00f3gica e Acompanhamento (OPA)",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 59,
+    "loc": [
+      "-27.016398",
+      "-48.659269"
+    ],
+    "title": "D 005 Laborat\u00f3rio de Hospedagem I",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 60,
+    "loc": [
+      "-27.016361",
+      "-48.659270"
+    ],
+    "title": "D 006 Laborat\u00f3rio de Inform\u00e1tica Geral I",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 61,
+    "loc": [
+      "-27.016303",
+      "-48.659226"
+    ],
+    "title": "D 007 Laborat\u00f3rio de Hospedagem II",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 62,
+    "loc": [
+      "-27.016285",
+      "-48.659211"
+    ],
+    "title": "D 008 Sala de Artes",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 63,
+    "loc": [
+      "-27.016225",
+      "-48.659175"
+    ],
+    "title": "D 009 Laborat\u00f3rio de Suporte B\u00e1sico \u00e0 Vida",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 64,
+    "loc": [
+      "-27.016437",
+      "-48.659162"
+    ],
+    "title": "Sanit\u00e1rio Feminino Bloco D",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 65,
+    "loc": [
+      "-27.016432",
+      "-48.659176"
+    ],
+    "title": "Sanit\u00e1rio Masculino Bloco D",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "D"
+  },
+  {
+    "id": 66,
+    "loc": [
+      "-27.015302",
+      "-48.658690"
+    ],
+    "title": "Entrada Bloco B 1\u00baPiso",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 67,
+    "loc": [
+      "-27.015388",
+      "-48.658704"
+    ],
+    "title": "B 101 Laborat\u00f3rio de Web Design - LabWebDesign",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 68,
+    "loc": [
+      "-27.015355",
+      "-48.658748"
+    ],
+    "title": "B 102 Laborat\u00f3rio de Hardware - LabHard",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 69,
+    "loc": [
+      "-27.015401",
+      "-48.658714"
+    ],
+    "title": "B 103 Laborat\u00f3rio de Redes - LabRedes",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 70,
+    "loc": [
+      "-27.0153756",
+      "-48.6587708"
+    ],
+    "title": "B 104 Laborat\u00f3rio de Software I - LabSoft I",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 71,
+    "loc": [
+      "-27.015475",
+      "-48.658757"
+    ],
+    "title": "B 105 Coordena\u00e7\u00e3o de Curso ",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 72,
+    "loc": [
+      "-27.015494",
+      "-48.658820"
+    ],
+    "title": "B 106 Laborat\u00f3rio de Software II - LabSoft II",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 73,
+    "loc": [
+      "-27.015566",
+      "-48.658815"
+    ],
+    "title": "Laborat\u00f3rio Multidisciplinar Avan\u00e7ado de Tecnologia da Informa\u00e7\u00e3o e Inova\u00e7\u00e3o - LabMati(i)\u00b2",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 74,
+    "loc": [
+      "-27.015576",
+      "-48.658851"
+    ],
+    "title": "2\u00aa Entrada Bloco B 1\u00ba Piso",
+    "andar": "Primeiro",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 75,
+    "loc": [
+      "-27.015306",
+      "-48.658680"
+    ],
+    "title": "Entrada Bloco B T\u00e9rreo",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 76,
+    "loc": [
+      "-27.015373",
+      "-48.658701"
+    ],
+    "title": "B 001 Coordena\u00e7\u00e3o de Curso de Seguran\u00e7a do Trabalho ",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 77,
+    "loc": [
+      "-27.015349",
+      "-48.658744"
+    ],
+    "title": "B 002 Laborat\u00f3rio de Gest\u00e3o Ambiental",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 78,
+    "loc": [
+      "-27.015355",
+      "-48.658761"
+    ],
+    "title": "Sanit\u00e1rio Feminino T\u00e9rreo Bloco B",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 79,
+    "loc": [
+      "-27.015393",
+      "-48.658701"
+    ],
+    "title": "Sanit\u00e1rio Masculino T\u00e9rreo Bloco B",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 80,
+    "loc": [
+      "-27.015389",
+      "-48.658778"
+    ],
+    "title": "B 003 Laborat\u00f3rio de An\u00e1lises Qu\u00edmicas",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 81,
+    "loc": [
+      "-27.015463",
+      "-48.658761"
+    ],
+    "title": "B 004 Laborat\u00f3rio de F\u00edsica",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 82,
+    "loc": [
+      "-27.015486",
+      "-48.658775"
+    ],
+    "title": "B 005 Sala de Reagentes",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 83,
+    "loc": [
+      "-27.015460",
+      "-48.658809"
+    ],
+    "title": "Museu Entomol\u00f3gico",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 84,
+    "loc": [
+      "-27.015486",
+      "-48.658823"
+    ],
+    "title": "B 006 Laborat\u00f3rio de Biologia",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 85,
+    "loc": [
+      "-27.015572",
+      "-48.658836"
+    ],
+    "title": "B 007 Laborat\u00f3rio de Qu\u00edmica",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 86,
+    "loc": [
+      "-27.015579",
+      "-48.658862"
+    ],
+    "title": "2\u00aa Entrada Bloco BT\u00e9rreo",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  },
+  {
+    "id": 87,
+    "loc": [
+      "-27.015608",
+      "-48.658808"
+    ],
+    "title": "Elevador Acess\u00edvel Bloco B",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "B"
+  }
+]
