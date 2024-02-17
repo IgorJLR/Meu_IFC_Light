@@ -1,7 +1,7 @@
 {
   "name": "meu-ifc-light",
   "version": "0.1.0",
-  "homepage": "http://igorjlr.github.io/Meu_IFC_Light",
+  "homepage": "https://igorjlr.github.io/Meu_IFC_Light",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
