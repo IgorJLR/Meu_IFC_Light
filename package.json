@@ -24,7 +24,6 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "publish": "npm run deploy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
