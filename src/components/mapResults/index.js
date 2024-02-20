@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
-import L, { icon, map } from "leaflet";
-import { Map, TileLayer, Marker, Popup } from "react-leaflet";
+import { Polyline, Map, TileLayer, Marker, Popup } from "react-leaflet";
+import L from "leaflet";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import 'leaflet-fullscreen/dist/Leaflet.fullscreen.js';
@@ -9,16 +9,14 @@ import "leaflet/dist/leaflet.css";
 import 'leaflet-fullscreen/dist/leaflet.fullscreen.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 import { Container } from "./style";
 import ModalPopup from "../popUp";
 
 import Data from '../../assets/data.json';
 import defaultMarker from '../../assets/imgs/map-pointer.svg'
-
 import iconC from "./constants";
-
 import useGeoLocation from "./useGeoLocation";
+import 'leaflet/dist/leaflet.css';
 
 const defaultCenter = [-27.016526114032356, -48.657304712972156];
 const defaultZoom = 19;
@@ -27,30 +25,78 @@ const bounds = [
   [-27.030384113005965, -48.68121530743459],
   [-26.99815597827438, -48.64297243152386],
 ];
+const coordinates = [
+  [
+    -27.018187,
+    -48.655709
+  ],
+  [
+    -27.016719,
+    -48.656979
+  ],
+  [
+    -27.016082,
+    -48.657526
+  ],
+  [
+    -27.015545,
+    -48.658004
+  ],
+  [
+    -27.015551,
+    -48.658034
+  ],
+  [
+    -27.015543,
+    -48.658082
+  ],
+  [
+    -27.015521,
+    -48.658113
+  ],
+  [
+    -27.015996,
+    -48.658434
+  ],
+  [
+    -27.016441,
+    -48.658712
+  ],
+  [
+    -27.016324,
+    -48.658926
+  ],
+  [
+    -27.01651,
+    -48.659044
+  ],
+  [
+    -27.016440404707257, -48.65915952839324
+  ]
+];
 
 export default function MapResults() {
+  const [routeCoordinates, setRouteCoordinates] = useState([]); // Definindo o estado dentro do componente
+
   const mapRef = useRef();
+  
   useEffect(() => {
     const { current = {} } = mapRef;
     const { leafletElement: map } = current;
 
     map.on("locationfound", handleOnLocationFound);
-
-    // Additional event handler for listening for
-    // errors in finding someone's location
-
     map.on("locationerror", handleOnLocationError);
 
+    // setRouteCoordinates(coordinates); // Removido daqui, pois não há definição para 'coordinates'
+    // Coordenadas da rota fornecidas diretamente
+    
+    setRouteCoordinates(coordinates);
     return () => {
       map.off("locationfound", handleOnLocationFound);
       map.off("locationerror", handleOnLocationError);
     };
+    
   }, []);
-
-  /**
-   * handleOnLocationFound
-   * @param {object} event Leaflet LocationEvent object
-   */
 
   function handleOnLocationFound(event) {
     const { current = {} } = mapRef;
@@ -62,11 +108,6 @@ export default function MapResults() {
 
     circle.addTo(map);
   }
-
-  /**
-   * handleOnLocationError
-   * @param {object} error Leaflet ErrorEvent object
-   */
 
   function handleOnLocationError(error) {
     alert(`Unable to determine location: ${error.message}`);
@@ -106,27 +147,31 @@ export default function MapResults() {
           [-26.99815597827438, -48.64297243152386],
         ]}
       >
-
         <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        //url="https://supreme-carnival-v7rgppw7jwpcpwgj-5000.app.github.dev/{z}/{x}/{y}.png"
-        maxZoom={19.9}
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}&s=Ga"
+          maxZoom={22}
         />
-        <Marker position={ roomObj[0].loc } icon={ markerIcon } >
+        
+        <Marker position={roomObj[0].loc} icon={markerIcon}>
           <Popup>
-            <span>Seu destino está aqui: {roomObj[0].title}. No {roomObj[0].andar} andar; Bloco {roomObj[0].bloco}.</span>
+            <span>
+              Seu destino está aqui: {roomObj[0].title}. {roomObj[0].andar === "Térreo" ? null : `No ${roomObj[0].andar} andar;`} Bloco {roomObj[0].bloco}.
+            </span>
             <ModalPopup />
           </Popup>
         </Marker>
         {location.loaded && !location.error && (
-            <Marker icon={ iconC } position={[location.coordinates.lat, location.coordinates.lng]}>
-                <Popup>
-                  <b>Você está aqui.</b>
-                </Popup>
-            </Marker>
+          <Marker icon={iconC} position={[location.coordinates.lat, location.coordinates.lng]}>
+            <Popup>
+              <b>Você está aqui.</b>
+            </Popup>
+          </Marker>
         )}
+        {/* Renderize a camada de rota */}
+        <Polyline positions={routeCoordinates} color="#ff00007a" weight={5}/>
       </Map>
+      
     </Container>
   );
-};
+}

@@ -113,17 +113,9 @@
   },
   {
     "id": 15,
-    "loc": [-27.016093930906862,-48.65914061665535],
-    "title": "Lapi Mob",
-    "andar": "primeiro",
-    "foto": "labRedes.png",
-    "bloco": "C"
-  },
-  {
-    "id": 16,
     "loc": [
-      "verificar",
-      "verificar"
+      -27.01492625,
+      -48.6584603
     ],
     "title": "Almoxarifado",
     "andar": "T\u00e9rreo",
@@ -131,10 +123,10 @@
     "bloco": "G"
   },
   {
-    "id": 17,
+    "id": 16,
     "loc": [
-      "-27.014796",
-      "-48.658261"
+      -27.014796,
+      -48.658261
     ],
     "title": "G3 001 Laborat\u00f3rio de Sementes",
     "andar": "T\u00e9rreo",
@@ -142,10 +134,10 @@
     "bloco": "G"
   },
   {
-    "id": 18,
+    "id": 17,
     "loc": [
-      "-27.014685",
-      "-48.657824"
+      -27.014685,
+      -48.657824
     ],
     "title": "G3 002 Laborat\u00f3rio de Inform\u00e1tica Geral I",
     "andar": "T\u00e9rreo",
@@ -153,10 +145,10 @@
     "bloco": "G"
   },
   {
-    "id": 19,
+    "id": 18,
     "loc": [
-      "-27.014622",
-      "-48.657815"
+      -27.014622,
+      -48.657815
     ],
     "title": "G3 003 Laborat\u00f3rio de Entomologia (LABENTO)",
     "andar": "T\u00e9rreo",
@@ -164,10 +156,10 @@
     "bloco": "G"
   },
   {
-    "id": 20,
+    "id": 19,
     "loc": [
-      "-27.014622",
-      "-48.657815"
+      -27.014622,
+      -48.657815
     ],
     "title": "G3 004 Laborat\u00f3rio de Inform\u00e1tica Geral II",
     "andar": "T\u00e9rreo",
@@ -175,10 +167,10 @@
     "bloco": "G"
   },
   {
-    "id": 21,
+    "id": 20,
     "loc": [
-      "-27.014622",
-      "-48.657816"
+      -27.014622,
+      -48.657816
     ],
     "title": "G3\u00a0005 Programa de Educa\u00e7\u00e3o Tutorial (PET)",
     "andar": "T\u00e9rreo",
@@ -186,10 +178,10 @@
     "bloco": "G"
   },
   {
-    "id": 22,
+    "id": 21,
     "loc": [
-      "-27.014622",
-      "-48.657816"
+      -27.014622,
+      -48.657816
     ],
     "title": "G3\u00a0006 Laborat\u00f3rio de Projetos",
     "andar": "T\u00e9rreo",
@@ -197,10 +189,10 @@
     "bloco": "G"
   },
   {
-    "id": 23,
+    "id": 22,
     "loc": [
-      "-27.014237",
-      "-48.657438"
+      -27.014237,
+      -48.657438
     ],
     "title": "G3\u00a0007 Grupo de Estudos Avan\u00e7ados em Tecnologia da Informa\u00e7\u00e3o (GEATI)",
     "andar": "T\u00e9rreo",
@@ -208,10 +200,10 @@
     "bloco": "G"
   },
   {
-    "id": 24,
+    "id": 23,
     "loc": [
-      "-27.014237",
-      "-48.657438"
+      -27.014237,
+      -48.657438
     ],
     "title": "G3\u00a0008 Laborat\u00f3rio de Gerenciamento de Desastres\nG3\u00a0008 Laborat\u00f3rio de Simula\u00e7\u00e3o - Jogos de Mesa e Cen\u00e1rios\nG3\u00a0008 Laborat\u00f3rio de Equipamentos de Prote\u00e7\u00e3o Individual, Higiene Ocupacional e Ergonomia",
     "andar": "T\u00e9rreo",
@@ -219,10 +211,10 @@
     "bloco": "G"
   },
   {
-    "id": 25,
+    "id": 24,
     "loc": [
-      "-27.014724",
-      "-48.657837"
+      -27.014724,
+      -48.657837
     ],
     "title": "Sanit\u00e1rios Bloco G, T\u00e9rreo",
     "andar": "T\u00e9rreo",
@@ -230,10 +222,10 @@
     "bloco": "G"
   },
   {
-    "id": 26,
+    "id": 25,
     "loc": [
-      "-27.014442",
-      "-48.658009"
+      -27.014442,
+      -48.658009
     ],
     "title": "Entrada Bloco G",
     "andar": "T\u00e9rreo",
@@ -241,12 +233,23 @@
     "bloco": "G"
   },
   {
+    "id": 26,
+    "loc": [
+      -27.014967,
+      -48.658111
+    ],
+    "title": "Centro de conviv\u00eancia dos terceirizados",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "G"
+  },
+  {
     "id": 27,
     "loc": [
-      "-27.014967",
-      "-48.658111"
+      -27.01517,
+      -48.65801
     ],
-    "title": "CENTRO DE CONVIV\u00caNCIA DOS TERCEIRIZADOS",
+    "title": "Ambulat\u00f3rio",
     "andar": "T\u00e9rreo",
     "foto": "labRedes.png",
     "bloco": "G"
@@ -254,43 +257,43 @@
   {
     "id": 28,
     "loc": [
-      "-27.015170",
-      "-48.658010"
+      -27.01446,
+      -48.657302
     ],
-    "title": "AMBULAT\u00d3RIO",
+    "title": "Agroind\u00fastria de produtos de origem vegetal",
     "andar": "T\u00e9rreo",
     "foto": "labRedes.png",
-    "bloco": "G"
+    "bloco": "Sem Bloco"
   },
   {
     "id": 29,
     "loc": [
-      "-27.014460",
-      "-48.657302"
+      -27.015073,
+      -48.658758
     ],
-    "title": "AGROIND\u00daSTRIA DE PRODUTOS DE ORIGEM VEGETAL",
-    "andar": "T\u00e9rreo",
+    "title": "Casa da ora\u00e7\u00e3o",
+    "andar": "Primeiro",
     "foto": "labRedes.png",
     "bloco": "Sem Bloco"
   },
   {
     "id": 30,
     "loc": [
-      "-27.015073",
-      "-48.658758"
+      -27.014158,
+      -48.665351
     ],
-    "title": "CASA DE ORA\u00c7\u00c3O",
-    "andar": "Primeiro",
+    "title": "Centro de forma\u00e7\u00e3o de treinadores e instrutores de c\u00e3es-guia e inclus\u00e3o",
+    "andar": "T\u00e9rreo",
     "foto": "labRedes.png",
     "bloco": "Sem Bloco"
   },
   {
     "id": 31,
     "loc": [
-      "-27.014158",
-      "-48.665351"
+      -27.014142,
+      -48.657399
     ],
-    "title": "CENTRO DE FORMA\u00c7\u00c3O DE TREINADORES E INSTRUTORES DE C\u00c3ES-GUIA E INCLUS\u00c3O",
+    "title": "Laborat\u00f3rio de cuidado de idosos",
     "andar": "T\u00e9rreo",
     "foto": "labRedes.png",
     "bloco": "Sem Bloco"
@@ -298,19 +301,8 @@
   {
     "id": 32,
     "loc": [
-      "-27.014142",
-      "-48.657399"
-    ],
-    "title": "LABORAT\u00d3RIO DE CUIDADOS DE IDOSOS",
-    "andar": "T\u00e9rreo",
-    "foto": "labRedes.png",
-    "bloco": "Sem Bloco"
-  },
-  {
-    "id": 33,
-    "loc": [
-      "-27.014601",
-      "-48.659562"
+      -27.014601,
+      -48.659562
     ],
     "title": "Sala de Aula - Mec\u00e2nica ",
     "andar": "T\u00e9rreo",
@@ -318,10 +310,10 @@
     "bloco": "M"
   },
   {
-    "id": 34,
+    "id": 33,
     "loc": [
-      "-27.015959",
-      "-48.659095"
+      -27.015959,
+      -48.659095
     ],
     "title": "C 101 Sala de Professores",
     "andar": "Primeiro",
@@ -329,10 +321,10 @@
     "bloco": "C"
   },
   {
-    "id": 35,
+    "id": 34,
     "loc": [
-      "-27.015991",
-      "-48.659044"
+      -27.015991,
+      -48.659044
     ],
     "title": "C 102 Sala de Professores",
     "andar": "Primeiro",
@@ -340,10 +332,10 @@
     "bloco": "C"
   },
   {
-    "id": 36,
+    "id": 35,
     "loc": [
-      "-27.015959",
-      "-48.659106"
+      -27.015959,
+      -48.659106
     ],
     "title": "C 103 Sala de Professores",
     "andar": "Primeiro",
@@ -351,10 +343,10 @@
     "bloco": "C"
   },
   {
-    "id": 37,
+    "id": 36,
     "loc": [
-      "-27.015948",
-      "-48.659071"
+      -27.015948,
+      -48.659071
     ],
     "title": "C 104 Laborat\u00f3rio Avan\u00e7ado em Seguran\u00e7a e Redes (LabLASER)",
     "andar": "Primeiro",
@@ -362,10 +354,10 @@
     "bloco": "C"
   },
   {
-    "id": 38,
+    "id": 37,
     "loc": [
-      "-27.015929",
-      "-48.659098"
+      -27.015929,
+      -48.659098
     ],
     "title": "C 105 Laborat\u00f3rio de Pesquisas Imobili\u00e1rias (LaPimob)",
     "andar": "Primeiro",
@@ -373,10 +365,10 @@
     "bloco": "C"
   },
   {
-    "id": 39,
+    "id": 38,
     "loc": [
-      "-27.015958",
-      "-48.659103"
+      -27.015958,
+      -48.659103
     ],
     "title": "C 106 Laborat\u00f3rio Gr\u00e1fico para Experimenta\u00e7\u00e3o Imobili\u00e1ria (LabGEXI) e Laborat\u00f3rio de Ger\u00eancia Imobili\u00e1ria (LAGI)",
     "andar": "Primeiro",
@@ -384,10 +376,10 @@
     "bloco": "C"
   },
   {
-    "id": 40,
+    "id": 39,
     "loc": [
-      "-27.015893",
-      "-48.659050"
+      -27.015893,
+      -48.65905
     ],
     "title": "Sanit\u00e1rios Bloco C, 1\u00ba Piso",
     "andar": "Primeiro",
@@ -395,10 +387,10 @@
     "bloco": "C"
   },
   {
-    "id": 41,
+    "id": 40,
     "loc": [
-      "-27.015945",
-      "-48.65911"
+      -27.015945,
+      -48.65911
     ],
     "title": "Entrada Bloco C, 1\u00ba Piso",
     "andar": "Primeiro",
@@ -406,10 +398,10 @@
     "bloco": "C"
   },
   {
-    "id": 42,
+    "id": 41,
     "loc": [
-      "-27.015948",
-      "-48.659080"
+      -27.015948,
+      -48.65908
     ],
     "title": "C 001 Sala de Professores",
     "andar": "T\u00e9rreo",
@@ -417,10 +409,10 @@
     "bloco": "C"
   },
   {
-    "id": 43,
+    "id": 42,
     "loc": [
-      "-27.015973",
-      "-48.659074"
+      -27.015973,
+      -48.659074
     ],
     "title": "C 002 Suporte de Inform\u00e1tica ",
     "andar": "T\u00e9rreo",
@@ -428,10 +420,10 @@
     "bloco": "C"
   },
   {
-    "id": 44,
+    "id": 43,
     "loc": [
-      "-27.0159476",
-      "-48.6591017"
+      -27.0159476,
+      -48.6591017
     ],
     "title": "C 003 Sala de Professores",
     "andar": "T\u00e9rreo",
@@ -439,10 +431,10 @@
     "bloco": "C"
   },
   {
-    "id": 45,
+    "id": 44,
     "loc": [
-      "-27.015934",
-      "-48.659053"
+      -27.015934,
+      -48.659053
     ],
     "title": "Arquivo Setorial",
     "andar": "T\u00e9rreo",
@@ -450,10 +442,10 @@
     "bloco": "C"
   },
   {
-    "id": 46,
+    "id": 45,
     "loc": [
-      "-27.015963",
-      "-48.659084"
+      -27.015963,
+      -48.659084
     ],
     "title": "C 004 Dep\u00f3sito",
     "andar": "T\u00e9rreo",
@@ -461,10 +453,10 @@
     "bloco": "C"
   },
   {
-    "id": 47,
+    "id": 46,
     "loc": [
-      "-27.015965",
-      "-48.659073"
+      -27.015965,
+      -48.659073
     ],
     "title": "C 005 Laborat\u00f3rio de Recursos H\u00eddricos",
     "andar": "T\u00e9rreo",
@@ -472,10 +464,10 @@
     "bloco": "C"
   },
   {
-    "id": 48,
+    "id": 47,
     "loc": [
-      "-27.016010",
-      "-48.659136"
+      -27.01601,
+      -48.659136
     ],
     "title": "C 007 Representa\u00e7\u00e3o Estudantil",
     "andar": "T\u00e9rreo",
@@ -483,10 +475,10 @@
     "bloco": "C"
   },
   {
-    "id": 49,
+    "id": 48,
     "loc": [
-      "-27.016017",
-      "-48.659125"
+      -27.016017,
+      -48.659125
     ],
     "title": "Cantina",
     "andar": "T\u00e9rreo",
@@ -494,10 +486,10 @@
     "bloco": "C"
   },
   {
-    "id": 50,
+    "id": 49,
     "loc": [
-      "-27.016287",
-      "-48.659061"
+      -27.016287,
+      -48.659061
     ],
     "title": "Sala de Jogos",
     "andar": "T\u00e9rreo",
@@ -505,10 +497,10 @@
     "bloco": "C"
   },
   {
-    "id": 51,
+    "id": 50,
     "loc": [
-      "-27.015862",
-      "-48.658985"
+      -27.015862,
+      -48.658985
     ],
     "title": "Sanit\u00e1rios Bloco C, T\u00e9rreo",
     "andar": "T\u00e9rreo",
@@ -516,10 +508,10 @@
     "bloco": "C"
   },
   {
-    "id": 52,
+    "id": 51,
     "loc": [
-      "-27.016017",
-      "-48.659136"
+      -27.016017,
+      -48.659136
     ],
     "title": "Entrada 1 Bloco C, T\u00e9rreo",
     "andar": "T\u00e9rreo",
@@ -527,10 +519,10 @@
     "bloco": "C"
   },
   {
-    "id": 53,
+    "id": 52,
     "loc": [
-      "-27.015957",
-      "-48.659110"
+      -27.015957,
+      -48.65911
     ],
     "title": "Entrada 2 Bloco C, T\u00e9rreo",
     "andar": "T\u00e9rreo",
@@ -538,10 +530,10 @@
     "bloco": "C"
   },
   {
-    "id": 54,
+    "id": 53,
     "loc": [
-      "-27.015862",
-      "-48.658985"
+      -27.015862,
+      -48.658985
     ],
     "title": "Entrada 3 Bloco C, T\u00e9rreo",
     "andar": "T\u00e9rreo",
@@ -549,10 +541,10 @@
     "bloco": "C"
   },
   {
-    "id": 55,
+    "id": 54,
     "loc": [
-      "-27.016389",
-      "-48.658951"
+      -27.016389,
+      -48.658951
     ],
     "title": "D 001 Brinquedoteca",
     "andar": "T\u00e9rreo",
@@ -560,10 +552,10 @@
     "bloco": "D"
   },
   {
-    "id": 56,
+    "id": 55,
     "loc": [
-      "-27.016397",
-      "-48.658959"
+      -27.016397,
+      -48.658959
     ],
     "title": "D 002 Sala de Inclus\u00e3o e Diversidade / NAPNE - Atendimento Educacional Especializado",
     "andar": "T\u00e9rreo",
@@ -571,10 +563,10 @@
     "bloco": "D"
   },
   {
-    "id": 57,
+    "id": 56,
     "loc": [
-      "-27.016484",
-      "-48.659013"
+      -27.016484,
+      -48.659013
     ],
     "title": "D 003 Psic\u00f3logo(a) e Assist\u00eancia Social",
     "andar": "T\u00e9rreo",
@@ -582,10 +574,10 @@
     "bloco": "D"
   },
   {
-    "id": 58,
+    "id": 57,
     "loc": [
-      "-27.016505",
-      "-48.659034"
+      -27.016505,
+      -48.659034
     ],
     "title": "D 004 Coordena\u00e7\u00e3o de Servi\u00e7o Integrado e Acompanhamento educacional (SISAE) e Orienta\u00e7\u00e3o Pedag\u00f3gica e Acompanhamento (OPA)",
     "andar": "T\u00e9rreo",
@@ -593,10 +585,10 @@
     "bloco": "D"
   },
   {
-    "id": 59,
+    "id": 58,
     "loc": [
-      "-27.016398",
-      "-48.659269"
+      -27.016398,
+      -48.659269
     ],
     "title": "D 005 Laborat\u00f3rio de Hospedagem I",
     "andar": "T\u00e9rreo",
@@ -604,10 +596,10 @@
     "bloco": "D"
   },
   {
-    "id": 60,
+    "id": 59,
     "loc": [
-      "-27.016361",
-      "-48.659270"
+      -27.016361,
+      -48.65927
     ],
     "title": "D 006 Laborat\u00f3rio de Inform\u00e1tica Geral I",
     "andar": "T\u00e9rreo",
@@ -615,10 +607,10 @@
     "bloco": "D"
   },
   {
-    "id": 61,
+    "id": 60,
     "loc": [
-      "-27.016303",
-      "-48.659226"
+      -27.016303,
+      -48.659226
     ],
     "title": "D 007 Laborat\u00f3rio de Hospedagem II",
     "andar": "T\u00e9rreo",
@@ -626,10 +618,10 @@
     "bloco": "D"
   },
   {
-    "id": 62,
+    "id": 61,
     "loc": [
-      "-27.016285",
-      "-48.659211"
+      -27.016285,
+      -48.659211
     ],
     "title": "D 008 Sala de Artes",
     "andar": "T\u00e9rreo",
@@ -637,10 +629,10 @@
     "bloco": "D"
   },
   {
-    "id": 63,
+    "id": 62,
     "loc": [
-      "-27.016225",
-      "-48.659175"
+      -27.016225,
+      -48.659175
     ],
     "title": "D 009 Laborat\u00f3rio de Suporte B\u00e1sico \u00e0 Vida",
     "andar": "T\u00e9rreo",
@@ -648,10 +640,10 @@
     "bloco": "D"
   },
   {
-    "id": 64,
+    "id": 63,
     "loc": [
-      "-27.016437",
-      "-48.659162"
+      -27.016437,
+      -48.659162
     ],
     "title": "Sanit\u00e1rio Feminino Bloco D",
     "andar": "T\u00e9rreo",
@@ -659,10 +651,10 @@
     "bloco": "D"
   },
   {
-    "id": 65,
+    "id": 64,
     "loc": [
-      "-27.016432",
-      "-48.659176"
+      -27.016432,
+      -48.659176
     ],
     "title": "Sanit\u00e1rio Masculino Bloco D",
     "andar": "T\u00e9rreo",
@@ -670,10 +662,10 @@
     "bloco": "D"
   },
   {
-    "id": 66,
+    "id": 65,
     "loc": [
-      "-27.015302",
-      "-48.658690"
+      -27.015302,
+      -48.65869
     ],
     "title": "Entrada Bloco B 1\u00baPiso",
     "andar": "T\u00e9rreo",
@@ -681,10 +673,10 @@
     "bloco": "B"
   },
   {
-    "id": 67,
+    "id": 66,
     "loc": [
-      "-27.015388",
-      "-48.658704"
+      -27.015388,
+      -48.658704
     ],
     "title": "B 101 Laborat\u00f3rio de Web Design - LabWebDesign",
     "andar": "Primeiro",
@@ -692,10 +684,10 @@
     "bloco": "B"
   },
   {
-    "id": 68,
+    "id": 67,
     "loc": [
-      "-27.015355",
-      "-48.658748"
+      -27.015355,
+      -48.658748
     ],
     "title": "B 102 Laborat\u00f3rio de Hardware - LabHard",
     "andar": "Primeiro",
@@ -703,10 +695,10 @@
     "bloco": "B"
   },
   {
-    "id": 69,
+    "id": 68,
     "loc": [
-      "-27.015401",
-      "-48.658714"
+      -27.015401,
+      -48.658714
     ],
     "title": "B 103 Laborat\u00f3rio de Redes - LabRedes",
     "andar": "Primeiro",
@@ -714,10 +706,10 @@
     "bloco": "B"
   },
   {
-    "id": 70,
+    "id": 69,
     "loc": [
-      "-27.0153756",
-      "-48.6587708"
+      -27.0153756,
+      -48.6587708
     ],
     "title": "B 104 Laborat\u00f3rio de Software I - LabSoft I",
     "andar": "Primeiro",
@@ -725,10 +717,10 @@
     "bloco": "B"
   },
   {
-    "id": 71,
+    "id": 70,
     "loc": [
-      "-27.015475",
-      "-48.658757"
+      -27.015475,
+      -48.658757
     ],
     "title": "B 105 Coordena\u00e7\u00e3o de Curso ",
     "andar": "Primeiro",
@@ -736,10 +728,10 @@
     "bloco": "B"
   },
   {
-    "id": 72,
+    "id": 71,
     "loc": [
-      "-27.015494",
-      "-48.658820"
+      -27.015494,
+      -48.65882
     ],
     "title": "B 106 Laborat\u00f3rio de Software II - LabSoft II",
     "andar": "Primeiro",
@@ -747,10 +739,10 @@
     "bloco": "B"
   },
   {
-    "id": 73,
+    "id": 72,
     "loc": [
-      "-27.015566",
-      "-48.658815"
+      -27.015566,
+      -48.658815
     ],
     "title": "Laborat\u00f3rio Multidisciplinar Avan\u00e7ado de Tecnologia da Informa\u00e7\u00e3o e Inova\u00e7\u00e3o - LabMati(i)\u00b2",
     "andar": "Primeiro",
@@ -758,10 +750,10 @@
     "bloco": "B"
   },
   {
-    "id": 74,
+    "id": 73,
     "loc": [
-      "-27.015576",
-      "-48.658851"
+      -27.015576,
+      -48.658851
     ],
     "title": "2\u00aa Entrada Bloco B 1\u00ba Piso",
     "andar": "Primeiro",
@@ -769,10 +761,10 @@
     "bloco": "B"
   },
   {
-    "id": 75,
+    "id": 74,
     "loc": [
-      "-27.015306",
-      "-48.658680"
+      -27.015306,
+      -48.65868
     ],
     "title": "Entrada Bloco B T\u00e9rreo",
     "andar": "T\u00e9rreo",
@@ -780,10 +772,10 @@
     "bloco": "B"
   },
   {
-    "id": 76,
+    "id": 75,
     "loc": [
-      "-27.015373",
-      "-48.658701"
+      -27.015373,
+      -48.658701
     ],
     "title": "B 001 Coordena\u00e7\u00e3o de Curso de Seguran\u00e7a do Trabalho ",
     "andar": "T\u00e9rreo",
@@ -791,10 +783,10 @@
     "bloco": "B"
   },
   {
-    "id": 77,
+    "id": 76,
     "loc": [
-      "-27.015349",
-      "-48.658744"
+      -27.015349,
+      -48.658744
     ],
     "title": "B 002 Laborat\u00f3rio de Gest\u00e3o Ambiental",
     "andar": "T\u00e9rreo",
@@ -802,10 +794,10 @@
     "bloco": "B"
   },
   {
-    "id": 78,
+    "id": 77,
     "loc": [
-      "-27.015355",
-      "-48.658761"
+      -27.015355,
+      -48.658761
     ],
     "title": "Sanit\u00e1rio Feminino T\u00e9rreo Bloco B",
     "andar": "T\u00e9rreo",
@@ -813,10 +805,10 @@
     "bloco": "B"
   },
   {
-    "id": 79,
+    "id": 78,
     "loc": [
-      "-27.015393",
-      "-48.658701"
+      -27.015393,
+      -48.658701
     ],
     "title": "Sanit\u00e1rio Masculino T\u00e9rreo Bloco B",
     "andar": "T\u00e9rreo",
@@ -824,10 +816,10 @@
     "bloco": "B"
   },
   {
-    "id": 80,
+    "id": 79,
     "loc": [
-      "-27.015389",
-      "-48.658778"
+      -27.015389,
+      -48.658778
     ],
     "title": "B 003 Laborat\u00f3rio de An\u00e1lises Qu\u00edmicas",
     "andar": "T\u00e9rreo",
@@ -835,10 +827,10 @@
     "bloco": "B"
   },
   {
-    "id": 81,
+    "id": 80,
     "loc": [
-      "-27.015463",
-      "-48.658761"
+      -27.015463,
+      -48.658761
     ],
     "title": "B 004 Laborat\u00f3rio de F\u00edsica",
     "andar": "T\u00e9rreo",
@@ -846,10 +838,10 @@
     "bloco": "B"
   },
   {
-    "id": 82,
+    "id": 81,
     "loc": [
-      "-27.015486",
-      "-48.658775"
+      -27.015486,
+      -48.658775
     ],
     "title": "B 005 Sala de Reagentes",
     "andar": "T\u00e9rreo",
@@ -857,10 +849,10 @@
     "bloco": "B"
   },
   {
-    "id": 83,
+    "id": 82,
     "loc": [
-      "-27.015460",
-      "-48.658809"
+      -27.01546,
+      -48.658809
     ],
     "title": "Museu Entomol\u00f3gico",
     "andar": "T\u00e9rreo",
@@ -868,10 +860,10 @@
     "bloco": "B"
   },
   {
-    "id": 84,
+    "id": 83,
     "loc": [
-      "-27.015486",
-      "-48.658823"
+      -27.015486,
+      -48.658823
     ],
     "title": "B 006 Laborat\u00f3rio de Biologia",
     "andar": "T\u00e9rreo",
@@ -879,10 +871,10 @@
     "bloco": "B"
   },
   {
-    "id": 85,
+    "id": 84,
     "loc": [
-      "-27.015572",
-      "-48.658836"
+      -27.015572,
+      -48.658836
     ],
     "title": "B 007 Laborat\u00f3rio de Qu\u00edmica",
     "andar": "T\u00e9rreo",
@@ -890,10 +882,10 @@
     "bloco": "B"
   },
   {
-    "id": 86,
+    "id": 85,
     "loc": [
-      "-27.015579",
-      "-48.658862"
+      -27.015579,
+      -48.658862
     ],
     "title": "2\u00aa Entrada Bloco BT\u00e9rreo",
     "andar": "T\u00e9rreo",
@@ -901,14 +893,124 @@
     "bloco": "B"
   },
   {
-    "id": 87,
+    "id": 86,
     "loc": [
-      "-27.015608",
-      "-48.658808"
+      -27.015608,
+      -48.658808
     ],
     "title": "Elevador Acess\u00edvel Bloco B",
     "andar": "T\u00e9rreo",
     "foto": "labRedes.png",
     "bloco": "B"
+  },
+  {
+    "id": 87,
+    "loc": [
+      -27.01678615,
+      -48.65932245
+    ],
+    "title": "Biblioteca",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "E"
+  },
+  {
+    "id": 88,
+    "loc": [
+      -27.01698225,
+      -48.65938725
+    ],
+    "title": "Sala de Estudo A",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "E"
+  },
+  {
+    "id": 89,
+    "loc": [
+      -27.01699135,
+      -48.6593848
+    ],
+    "title": "Sala de Estudo B",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "E"
+  },
+  {
+    "id": 90,
+    "loc": [
+      -27.01701635,
+      -48.6594144
+    ],
+    "title": "Sala de Estudo C",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "E"
+  },
+  {
+    "id": 91,
+    "loc": [
+      -27.01687255,
+      -48.6592209
+    ],
+    "title": "Miniaudit\u00f3rio",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "E"
+  },
+  {
+    "id": 92,
+    "loc": [
+      -27.0168483,
+      -48.6591763
+    ],
+    "title": "Sanit\u00e1rios Masculino;\u00a0",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "E"
+  },
+  {
+    "id": 93,
+    "loc": [
+      -27.0168648,
+      -48.6591864
+    ],
+    "title": "Sanit\u00e1rios Feminino;\u00a0",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "E"
+  },
+  {
+    "id": 94,
+    "loc": [
+      -27.0158729,
+      -48.65596645
+    ],
+    "title": "Ovinocultura e Capricultura",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+  },
+  {
+    "id": 95,
+    "loc": [
+      -27.015102,
+      -48.65486395
+    ],
+    "title": "Bovinocultura de Leite",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+  },
+  {
+    "id": 96,
+    "loc": [
+      -27.0165198,
+      -48.6576288
+    ],
+    "title": "Quadra poliesportiva grande",
+    "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
   }
 ]
