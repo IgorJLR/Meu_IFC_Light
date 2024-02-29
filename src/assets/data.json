@@ -1,13 +1,5 @@
 [
   {
-    "id": 0,
-    "loc": [-27.0167846,-48.65690995],
-    "title": "Guarita",
-    "andar": "primeiro",
-    "foto": "labRedes.png",
-    "bloco": "Sem Bloco"
-    },
-  {
   "id": 1,
   "loc": [-27.01537468200277,-48.65880534052849],
   "title": "Lab Hard",
@@ -1018,6 +1010,14 @@
     ],
     "title": "Quadra poliesportiva grande",
     "andar": "T\u00e9rreo",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+  },
+  {
+    "id": 97,
+    "loc": [-27.0167846,-48.65690995],
+    "title": "Guarita",
+    "andar": "primeiro",
     "foto": "labRedes.png",
     "bloco": "Sem Bloco"
   }
