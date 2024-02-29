@@ -153,7 +153,7 @@ export default function MapResults() {
           maxZoom={22}
         />
         
-        <Marker position={roomObj[0].loc} icon={markerIcon}>
+        <Marker position={[roomObj[0].loc[0]+0.00005,roomObj[0].loc[1]+0.00005]} icon={markerIcon}>
           <Popup>
             <span>
               Seu destino está aqui: {roomObj[0].title}. {roomObj[0].andar === "Térreo" ? null : `No ${roomObj[0].andar} andar;`} Bloco {roomObj[0].bloco}.
@@ -168,8 +168,8 @@ export default function MapResults() {
             </Popup>
           </Marker>
         )}
-        {/* Renderize a camada de rota */}
-        <Polyline positions={routeCoordinates} color="#ff00007a" weight={5}/>
+        {/* Renderize a camada de rota 
+        <Polyline positions={routeCoordinates} color="#ff00007a" weight={5}/>*/}
       </Map>
       
     </Container>

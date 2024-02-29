@@ -1,5 +1,13 @@
 [
   {
+    "id": 0,
+    "loc": [-27.0167846,-48.65690995],
+    "title": "Guarita",
+    "andar": "primeiro",
+    "foto": "labRedes.png",
+    "bloco": "Sem Bloco"
+    },
+  {
   "id": 1,
   "loc": [-27.01537468200277,-48.65880534052849],
   "title": "Lab Hard",

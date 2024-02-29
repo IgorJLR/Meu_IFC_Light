@@ -19,7 +19,7 @@ export default function Header() {
       <GreetingsHeader>
         <Greetings>
           <small>Bem-vindo(a) ao</small>
-          <h1>meifc</h1>
+          <h1>meuifc</h1>
         </Greetings>
         <div>
           <button><img src={mapPointerIcon} alt="" /></button>
