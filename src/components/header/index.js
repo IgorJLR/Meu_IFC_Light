@@ -12,7 +12,7 @@ export default function Header() {
   const history = useHistory();
 
   const handleBackToHome = () => {
-    history.push('/meifc');
+    history.push('/Meu_IFC_Light/');
   }
   return (
     <Container>

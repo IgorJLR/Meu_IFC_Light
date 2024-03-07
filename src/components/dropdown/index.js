@@ -20,7 +20,7 @@ export default function Dropdown(props) {
   const handleSelectResult = (title, id) => {
     props.returnedValue(title);
     props.clearInput();
-    history.push(`/search:${id}`); // Redirecionar para a página com o ID do item clicado
+    history.push(`/Meu_IFC_Light//search:${id}`); // Redirecionar para a página com o ID do item clicado
   };
 
   return (

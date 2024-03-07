@@ -9,8 +9,8 @@ export default function Routes() {
   return (
     <>
       <Route exact path="/" component={Mapa} />
-      <Route path="/meifc" component={SearchCta} />
-      <Route path="/search:id" component={SearchResults} />
+      <Route path="/Meu_IFC_Light" component={SearchCta} />
+      <Route path="/Meu_IFC_Light/search:id" component={SearchResults} />
     </>
   );
 };

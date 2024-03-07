@@ -30,7 +30,7 @@ function Mapa() {
       // Aqui você pode realizar qualquer função desejada com o parâmetro 'search'
 
       // Redirecionar para a URL desejada com o parâmetro de busca
-      history.push(`/search:${searchParam}`);
+      history.push(`/Meu_IFC_Light/search:${searchParam}`);
       
     }
   }, [history, searchParamIndex, url]); // O segundo argumento do useEffect vazio assegura que isso só aconteça uma vez, quando o componente for montado
