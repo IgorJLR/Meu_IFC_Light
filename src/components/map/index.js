@@ -1,9 +1,8 @@
 import React, { useRef, useEffect } from "react";
+import { useHistory } from 'react-router-dom';
 import L from "leaflet";
 import { Map, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { BrowserRouter as Router, useHistory } from 'react-router-dom';
-
 import { Container } from "./style";
 
 const defaultCenter = [-27.016526114032356, -48.657304712972156];
@@ -15,57 +14,42 @@ const bounds = [
 ];
 
 function Mapa() {
-  
+  const mapRef = useRef();
   const history = useHistory();
-  const url = window.location.href;
-  const searchParamIndex = url.indexOf('/search:');
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.hash.slice(1)); // Obtém os parâmetros da URL após o '#'
+    const params = new URLSearchParams(window.location.search); // Obtém os parâmetros de consulta da URL
     const searchParam = params.get('search'); // Obtém o valor do parâmetro 'search'
-
+  
     if (searchParam) {
       // Realize a função com o parâmetro 'search'
       console.log('Parâmetro de busca:', searchParam);
       // Aqui você pode realizar qualquer função desejada com o parâmetro 'search'
-
+  
       // Redirecionar para a URL desejada com o parâmetro de busca
       history.push(`/Meu_IFC_Light/search:${searchParam}`);
-      
     }
-  }, [history, searchParamIndex, url]); // O segundo argumento do useEffect vazio assegura que isso só aconteça uma vez, quando o componente for montado
+  }, [history.location.search]);
 
-  const mapRef = useRef();
   useEffect(() => {
     const { current = {} } = mapRef;
     const { leafletElement: map } = current;
 
-    // Commenting this out to avoid blocked location requests
-    // when embedded on the Egghead lesson page. To give this
-    // a try, simply uncomment out the function call below
+    if (map) {
+      map.on("locationfound", handleOnLocationFound);
+      map.on("locationerror", handleOnLocationError);
 
-    // map.locate({
-    //   setView: true,
-    // });
-
-    map.on("locationfound", handleOnLocationFound);
-
-    // Additional event handler for listening for
-    // errors in finding someone's location
-
-    map.on("locationerror", handleOnLocationError);
-
-    return () => {
-      map.off("locationfound", handleOnLocationFound);
-      map.off("locationerror", handleOnLocationError);
-    };
+      return () => {
+        map.off("locationfound", handleOnLocationFound);
+        map.off("locationerror", handleOnLocationError);
+      };
+    }
   }, []);
 
   /**
    * handleOnLocationFound
    * @param {object} event Leaflet LocationEvent object
    */
-
   function handleOnLocationFound(event) {
     const { current = {} } = mapRef;
     const { leafletElement: map } = current;
@@ -81,11 +65,11 @@ function Mapa() {
    * handleOnLocationError
    * @param {object} error Leaflet ErrorEvent object
    */
-
   function handleOnLocationError(error) {
     alert(`Unable to determine location: ${error.message}`);
   }
 
+  console.log("Before return");
   return (
     <Container>
       <Map
@@ -101,9 +85,9 @@ function Mapa() {
         ]}
       >
         <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}&s=Ga"
-        //url="https://supreme-carnival-v7rgppw7jwpcpwgj-5000.app.github.dev/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}&s=Ga"
+          //url="https://supreme-carnival-v7rgppw7jwpcpwgj-5000.app.github.dev/{z}/{x}/{y}.png"
         />
       </Map>
     </Container>

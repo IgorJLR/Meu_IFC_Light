@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import { Polyline, Map, TileLayer, Marker, Popup } from "react-leaflet";
+import { BrowserRouter as Router, useHistory } from 'react-router-dom';
 import L from "leaflet";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -79,6 +80,25 @@ export default function MapResults() {
   const [routeCoordinates, setRouteCoordinates] = useState([]); // Definindo o estado dentro do componente
 
   const mapRef = useRef();
+
+  const history = useHistory();
+  const url = window.location.href;
+  const searchParamIndex = url.indexOf('/Meu_IFC_Light/search:');
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.hash.slice(1)); // Obtém os parâmetros da URL após o '#'
+    const searchParam = params.get('search'); // Obtém o valor do parâmetro 'search'
+
+    if (searchParam) {
+      // Realize a função com o parâmetro 'search'
+      console.log('Parâmetro de busca:', searchParam);
+      // Aqui você pode realizar qualquer função desejada com o parâmetro 'search'
+
+      // Redirecionar para a URL desejada com o parâmetro de busca
+      history.push(`/Meu_IFC_Light/search:${searchParam}`);
+      
+    }
+  }, [history, searchParamIndex, url]); // O segundo argumento do useEffect vazio assegura que isso só aconteça uma vez, quando o componente for montado
   
   useEffect(() => {
     const { current = {} } = mapRef;
