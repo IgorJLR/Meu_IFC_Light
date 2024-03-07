@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Container } from './style';
+import Map from '../../components/map';
 
 export default function SearchCta(props) {
   console.log('SearchCTA running');
@@ -12,7 +13,7 @@ export default function SearchCta(props) {
 
   return (
     <Container>
-      <h1>Pesquise por uma Sala ou Professor</h1>
+      <Map></Map>
     </Container>
   );
 };

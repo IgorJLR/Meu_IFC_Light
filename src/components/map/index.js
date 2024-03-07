@@ -15,11 +15,10 @@ const bounds = [
 
 function Mapa() {
   const mapRef = useRef();
-  const history = useHistory();
-
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search); // Obtém os parâmetros de consulta da URL
-    const searchParam = params.get('search'); // Obtém o valor do parâmetro 'search'
+    console.log("Deu certo");
+    const hashParams = new URLSearchParams(window.location.hash.slice(1)); // Obtém os parâmetros do fragmento da URL
+    const searchParam = hashParams.get('search'); // Obtém o valor do parâmetro 'search'
   
     if (searchParam) {
       // Realize a função com o parâmetro 'search'
@@ -27,9 +26,9 @@ function Mapa() {
       // Aqui você pode realizar qualquer função desejada com o parâmetro 'search'
   
       // Redirecionar para a URL desejada com o parâmetro de busca
-      history.push(`/Meu_IFC_Light/search:${searchParam}`);
+      window.location.href = `/Meu_IFC_Light/search:${searchParam}`;
     }
-  }, [history.location.search]);
+  }, []);
 
   useEffect(() => {
     const { current = {} } = mapRef;
