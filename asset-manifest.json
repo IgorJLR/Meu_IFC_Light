@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Meu_IFC_Light/static/css/main.36138a40.css",
-    "main.js": "/Meu_IFC_Light/static/js/main.e4325f4b.js",
+    "main.js": "/Meu_IFC_Light/static/js/main.f1445434.js",
     "static/media/labRedes2.png": "/Meu_IFC_Light/static/media/labRedes2.7ae96be58425c097ea6d.png",
     "static/media/labRedes.png": "/Meu_IFC_Light/static/media/labRedes.b9be242e07e707fcb3e2.png",
     "static/media/home.svg": "/Meu_IFC_Light/static/media/home.cf8a14e4199acea3613337e74afbf43d.svg",
@@ -9,10 +9,10 @@
     "static/media/map-pointer.svg": "/Meu_IFC_Light/static/media/map-pointer.21088febfd53367fe918ac075b848652.svg",
     "static/media/searchIcon.svg": "/Meu_IFC_Light/static/media/searchIcon.c0adab04ae8a377d5979ef6e099cda1e.svg",
     "main.36138a40.css.map": "/Meu_IFC_Light/static/css/main.36138a40.css.map",
-    "main.e4325f4b.js.map": "/Meu_IFC_Light/static/js/main.e4325f4b.js.map"
+    "main.f1445434.js.map": "/Meu_IFC_Light/static/js/main.f1445434.js.map"
   },
   "entrypoints": [
     "static/css/main.36138a40.css",
-    "static/js/main.e4325f4b.js"
+    "static/js/main.f1445434.js"
   ]
 }
