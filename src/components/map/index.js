@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import L from "leaflet";
 import { Map, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import { BrowserRouter as Router, useHistory } from 'react-router-dom';
 
 import { Container } from "./style";
 
@@ -14,6 +15,26 @@ const bounds = [
 ];
 
 function Mapa() {
+  
+  const history = useHistory();
+  const url = window.location.href;
+  const searchParamIndex = url.indexOf('/search:');
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.hash.slice(1)); // Obtém os parâmetros da URL após o '#'
+    const searchParam = params.get('search'); // Obtém o valor do parâmetro 'search'
+
+    if (searchParam) {
+      // Realize a função com o parâmetro 'search'
+      console.log('Parâmetro de busca:', searchParam);
+      // Aqui você pode realizar qualquer função desejada com o parâmetro 'search'
+
+      // Redirecionar para a URL desejada com o parâmetro de busca
+      history.push(`/search:${searchParam}`);
+      
+    }
+  }, [history, searchParamIndex, url]); // O segundo argumento do useEffect vazio assegura que isso só aconteça uma vez, quando o componente for montado
+
   const mapRef = useRef();
   useEffect(() => {
     const { current = {} } = mapRef;
