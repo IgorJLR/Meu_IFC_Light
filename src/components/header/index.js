@@ -18,15 +18,15 @@ export default function Header() {
     <Container>
       <GreetingsHeader>
         <Greetings>
-          <small>Bem-vindo(a) ao</small>
-          <h1>meuifc</h1>
+          <small aria-label="Bem vindo, ou bem vinda, ao...">Bem-vindo(a) ao</small>
+          <h1 aria-label="Instituto Federal Catarinense Campus Camboriú">meuifc</h1>
         </Greetings>
         <div>
-          <button><img src={mapPointerIcon} alt="" /></button>
-          <button onClick={handleBackToHome}><img src={homeIcon} alt="" /></button>
+          <button><img src={mapPointerIcon} alt="mapa" /></button>
+          <button onClick={handleBackToHome}><img src={homeIcon} alt="voltar ao menu principal" /></button>
         </div>
       </GreetingsHeader>
-      <Search placeholder="Onde Gostaria de Ir?" data={Data} />
+      <Search placeholder="Onde Gostaria de Ir?" aria-label="Onde Gostaria de Ir?" data={Data} />
     </Container>
   );
 };
